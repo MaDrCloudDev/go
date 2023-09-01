@@ -2,7 +2,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -21,15 +20,15 @@ func getInitials(n string) (string, string) {
 	return initials[0], "_"
 }
 
-func main() {
-	fn1, ln1 := getInitials("Matt Smith")
-	fmt.Println(fn1, ln1)
+// func main() {
+// 	fn1, ln1 := getInitials("Matt Smith")
+// 	fmt.Println(fn1, ln1)
 
-	fn2, ln2 := getInitials("Nicky Smith")
-	fmt.Println(fn2, ln2)
+// 	fn2, ln2 := getInitials("Nicky Smith")
+// 	fmt.Println(fn2, ln2)
 
-	fn3, ln3 := getInitials("Bob")
-	fmt.Println(fn3, ln3)
-}
+// 	fn3, ln3 := getInitials("Bob")
+// 	fmt.Println(fn3, ln3)
+// }
 
 // go run multipleReturns.go
