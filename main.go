@@ -194,7 +194,6 @@ func main() {
 
 		fmt.Printf("the value at index %v is %v \n", index, value)
 	}
-
 }
 
 // go run main.go
