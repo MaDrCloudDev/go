@@ -1,9 +1,6 @@
 package main
 
-var score = 99.5
-
-// cannot use shorthand outside of functions
-// scoreTwo := 50
+// import the local package in the root directory called greetings.go
 
 func main() {
 
