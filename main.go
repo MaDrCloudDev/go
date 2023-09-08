@@ -1,11 +1,15 @@
 package main
 
-// import the local package in the root directory called greetings.go
-
 func main() {
-
-	// greeting from greetings.go
-	sayHello("Matt")
+	goArrays()
+	goBooleansAndConditionals()
+	goLoops()
+	goMultipleReturns("Matt Smith")
+	goNumbers()
+	goPrint()
+	goStdLibrary()
+	goStrings()
+	goGreetings("Matt Smith")
 }
 
-// go run main.go
+// go run main.go loops.go arrays.go booleansAndConditionals.go multipleReturns.go numbers.go print.go stdLibrary.go strings.go greetings.go

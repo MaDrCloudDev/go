@@ -1,4 +1,4 @@
-package greetings
+package main
 
 import "fmt"
 
@@ -9,7 +9,7 @@ var score = 99.5
 // cannot use shorthand outside of functions
 // scoreTwo := 50
 
-func sayHello(n string) {
+func goGreetings(n string) {
 	fmt.Println("hello", n)
 }
 

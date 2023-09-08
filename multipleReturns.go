@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func getInitials(n string) (string, string) {
+func goMultipleReturns(n string) (string, string) {
 	s := strings.ToUpper(n)
 	names := strings.Split(s, " ") // returns a slice with the first and last name
 	var initials []string
